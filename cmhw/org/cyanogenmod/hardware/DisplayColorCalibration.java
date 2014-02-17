@@ -33,7 +33,7 @@ public class DisplayColorCalibration {
         return 0;
     }
     public static int getDefValue() {
-        return 127;
+        return 255;
     }
     public static String getCurColors()  {
         return FileUtils.readOneLine(COLOR_FILE);
